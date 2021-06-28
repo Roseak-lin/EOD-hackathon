@@ -1,25 +1,35 @@
 {
   "files": {
-    "main.css": "/EOD-hackathon/static/css/main.83cdbf15.chunk.css",
-    "main.js": "/EOD-hackathon/static/js/main.60252440.chunk.js",
-    "main.js.map": "/EOD-hackathon/static/js/main.60252440.chunk.js.map",
+    "main.css": "/EOD-hackathon/static/css/main.d122eb8b.chunk.css",
+    "main.js": "/EOD-hackathon/static/js/main.99097ec4.chunk.js",
+    "main.js.map": "/EOD-hackathon/static/js/main.99097ec4.chunk.js.map",
     "runtime-main.js": "/EOD-hackathon/static/js/runtime-main.96f1ad1e.js",
     "runtime-main.js.map": "/EOD-hackathon/static/js/runtime-main.96f1ad1e.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/EOD-hackathon/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.719d3283.chunk.js": "/EOD-hackathon/static/js/2.719d3283.chunk.js",
-    "static/js/2.719d3283.chunk.js.map": "/EOD-hackathon/static/js/2.719d3283.chunk.js.map",
+    "static/js/2.9410021e.chunk.js": "/EOD-hackathon/static/js/2.9410021e.chunk.js",
+    "static/js/2.9410021e.chunk.js.map": "/EOD-hackathon/static/js/2.9410021e.chunk.js.map",
     "static/js/3.5eab2fec.chunk.js": "/EOD-hackathon/static/js/3.5eab2fec.chunk.js",
     "static/js/3.5eab2fec.chunk.js.map": "/EOD-hackathon/static/js/3.5eab2fec.chunk.js.map",
     "index.html": "/EOD-hackathon/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/EOD-hackathon/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.83cdbf15.chunk.css.map": "/EOD-hackathon/static/css/main.83cdbf15.chunk.css.map",
-    "static/js/2.719d3283.chunk.js.LICENSE.txt": "/EOD-hackathon/static/js/2.719d3283.chunk.js.LICENSE.txt"
+    "static/css/main.d122eb8b.chunk.css.map": "/EOD-hackathon/static/css/main.d122eb8b.chunk.css.map",
+    "static/js/2.9410021e.chunk.js.LICENSE.txt": "/EOD-hackathon/static/js/2.9410021e.chunk.js.LICENSE.txt",
+    "static/media/C_2020-1-1.b8a0c0b3.png": "/EOD-hackathon/static/media/C_2020-1-1.b8a0c0b3.png",
+    "static/media/C_2020-10-7.47875b8f.png": "/EOD-hackathon/static/media/C_2020-10-7.47875b8f.png",
+    "static/media/C_2020-4-1.480089ab.png": "/EOD-hackathon/static/media/C_2020-4-1.480089ab.png",
+    "static/media/C_2020-7-1.c701d812.png": "/EOD-hackathon/static/media/C_2020-7-1.c701d812.png",
+    "static/media/C_2021-1-6.65f84757.png": "/EOD-hackathon/static/media/C_2021-1-6.65f84757.png",
+    "static/media/T_2020-1-1.67ca9cff.png": "/EOD-hackathon/static/media/T_2020-1-1.67ca9cff.png",
+    "static/media/T_2020-10-7.0c9e7eab.png": "/EOD-hackathon/static/media/T_2020-10-7.0c9e7eab.png",
+    "static/media/T_2020-4-1.f4bd2982.png": "/EOD-hackathon/static/media/T_2020-4-1.f4bd2982.png",
+    "static/media/T_2020-7-1.dfcaf74f.png": "/EOD-hackathon/static/media/T_2020-7-1.dfcaf74f.png",
+    "static/media/T_2021-1-6.01d0fe92.png": "/EOD-hackathon/static/media/T_2021-1-6.01d0fe92.png"
   },
   "entrypoints": [
     "static/js/runtime-main.96f1ad1e.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.719d3283.chunk.js",
-    "static/css/main.83cdbf15.chunk.css",
-    "static/js/main.60252440.chunk.js"
+    "static/js/2.9410021e.chunk.js",
+    "static/css/main.d122eb8b.chunk.css",
+    "static/js/main.99097ec4.chunk.js"
   ]
 }
