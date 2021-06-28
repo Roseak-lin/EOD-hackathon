@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/EOD-hackathon/static/css/main.4e9b7580.chunk.css",
-    "main.js": "/EOD-hackathon/static/js/main.f6f1bfaf.chunk.js",
-    "main.js.map": "/EOD-hackathon/static/js/main.f6f1bfaf.chunk.js.map",
-    "runtime-main.js": "/EOD-hackathon/static/js/runtime-main.fb78da8e.js",
-    "runtime-main.js.map": "/EOD-hackathon/static/js/runtime-main.fb78da8e.js.map",
-    "static/js/2.9322ff26.chunk.js": "/EOD-hackathon/static/js/2.9322ff26.chunk.js",
-    "static/js/2.9322ff26.chunk.js.map": "/EOD-hackathon/static/js/2.9322ff26.chunk.js.map",
-    "static/js/3.5c0e9dad.chunk.js": "/EOD-hackathon/static/js/3.5c0e9dad.chunk.js",
-    "static/js/3.5c0e9dad.chunk.js.map": "/EOD-hackathon/static/js/3.5c0e9dad.chunk.js.map",
+    "main.css": "/EOD-hackathon/static/css/main.43132fb5.chunk.css",
+    "main.js": "/EOD-hackathon/static/js/main.56179803.chunk.js",
+    "main.js.map": "/EOD-hackathon/static/js/main.56179803.chunk.js.map",
+    "runtime-main.js": "/EOD-hackathon/static/js/runtime-main.96f1ad1e.js",
+    "runtime-main.js.map": "/EOD-hackathon/static/js/runtime-main.96f1ad1e.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/EOD-hackathon/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.7a2db727.chunk.js": "/EOD-hackathon/static/js/2.7a2db727.chunk.js",
+    "static/js/2.7a2db727.chunk.js.map": "/EOD-hackathon/static/js/2.7a2db727.chunk.js.map",
+    "static/js/3.5eab2fec.chunk.js": "/EOD-hackathon/static/js/3.5eab2fec.chunk.js",
+    "static/js/3.5eab2fec.chunk.js.map": "/EOD-hackathon/static/js/3.5eab2fec.chunk.js.map",
     "index.html": "/EOD-hackathon/index.html",
-    "static/css/main.4e9b7580.chunk.css.map": "/EOD-hackathon/static/css/main.4e9b7580.chunk.css.map",
-    "static/js/2.9322ff26.chunk.js.LICENSE.txt": "/EOD-hackathon/static/js/2.9322ff26.chunk.js.LICENSE.txt"
+    "static/css/2.4c97ca4f.chunk.css.map": "/EOD-hackathon/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.43132fb5.chunk.css.map": "/EOD-hackathon/static/css/main.43132fb5.chunk.css.map",
+    "static/js/2.7a2db727.chunk.js.LICENSE.txt": "/EOD-hackathon/static/js/2.7a2db727.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.fb78da8e.js",
-    "static/js/2.9322ff26.chunk.js",
-    "static/css/main.4e9b7580.chunk.css",
-    "static/js/main.f6f1bfaf.chunk.js"
+    "static/js/runtime-main.96f1ad1e.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.7a2db727.chunk.js",
+    "static/css/main.43132fb5.chunk.css",
+    "static/js/main.56179803.chunk.js"
   ]
 }
