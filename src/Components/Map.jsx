@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import $ from "jquery";
 import Form from "react-bootstrap/Form";
 import DropdownButton from "react-bootstrap/DropdownButton";
@@ -7,15 +7,6 @@ import ButtonGroup from "react-bootstrap/ButtonGroup"
 import ButtonToolbar from "react-bootstrap/ButtonToolbar"
 
 export default class Map extends React.Component {
-
-  constructor(props) {
-    super(props);
-    this.state = {
-      i1: "Total Suspended Matter",
-      i2: "Chlorophyll-a concentration"
-    }
-  }
-
   componentDidMount() {
     $(".slider").on("mousemove", function (e) {
       const position =
@@ -27,7 +18,6 @@ export default class Map extends React.Component {
       $(".foreground-img").css("width", `${position}px`);
 
       $("#break").css("left", `${position}px`);
-      console.log(`${position}px`);
     });
 
     $(".foreground-img").css(
@@ -37,44 +27,48 @@ export default class Map extends React.Component {
   }
 
   render() {
-    const { foreground, background } = this.props;
+    const { foreground, background, i1, i2, changeIndicator, scale_1, scale_2 } = this.props;
 
     return (
       <div>
         <ButtonToolbar className="justify-content-between">
           <ButtonGroup>
             <DropdownButton
-              title={this.state.i1}
+              title={i1}
               id="indicator-1"
-              variant="light"
+              variant="outline-dark"
+              onSelect={(key) => {
+                changeIndicator(key);
+              }}
             >
-              <Dropdown.Item eventKey="a1">A</Dropdown.Item>
-              <Dropdown.Item eventKey="b1">B</Dropdown.Item>
-              <Dropdown.Item eventKey="c1">C</Dropdown.Item>
+              <Dropdown.Item eventKey="a1">Total Suspended Matter</Dropdown.Item>
+              <Dropdown.Item eventKey="b1">Chlorophyll-a concentration</Dropdown.Item>
             </DropdownButton>
           </ButtonGroup>
 
           <ButtonGroup>
             <DropdownButton
-              title={this.state.i2}
+              title={i2}
               id="indicator-2"
-              variant="light"
+              variant="outline-dark"
+              onSelect={(key) => {
+                changeIndicator(key);
+              }}
             >
-              <Dropdown.Item eventKey="a2">A</Dropdown.Item>
-              <Dropdown.Item eventKey="b2">B</Dropdown.Item>
-              <Dropdown.Item eventKey="c2">C</Dropdown.Item>
+              <Dropdown.Item eventKey="a2">NO2</Dropdown.Item>
+              <Dropdown.Item eventKey="b2">Carbon Monoxide Concentration</Dropdown.Item>
             </DropdownButton>
           </ButtonGroup>
         </ButtonToolbar>
 
         <img
           id="legend_1"
-          src="https://eodashboard.org/data/trilateral/WaterQuality_legend_trilateral_tsm.png"
+          src={`${scale_1}`}
           alt="img1"
         />
         <img
           id="legend_2"
-          src="https://eodashboard.org/data/trilateral/WaterQuality_legend_trilateral.png"
+          src={`${scale_2}`}
           alt="img2"
         />
 
@@ -91,6 +85,7 @@ export default class Map extends React.Component {
         >
           <div id="break" />
         </div>
+       
       </div>
     );
   }
