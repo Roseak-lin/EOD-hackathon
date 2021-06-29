@@ -1,7 +1,159 @@
 html {
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 1em 0 0 1em;
 }
 
-p {
+.header {
+  font-size: 5em;
+}
+
+.row {
+  margin: 1em 0 1em 0;
+}
+
+.date-btn {
+  border: 1px solid #ccc;
   text-align: center;
+  padding: 2em;
+  margin-bottom: 1em;
+}
+
+.date-btn:hover {
+  cursor: pointer;
+}
+
+.date-btn.selected {
+  color: #fff;
+  background-color: rgb(54, 54, 54);
+}
+
+#legend_1, #legend_2 {
+  max-width: 250px;
+}
+
+#legend_2 {
+  position: absolute;
+  right: 1em;
+}
+
+.background-img {
+  z-index: -1;
+  position: absolute;
+  top: 48px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1168px;
+  height: 100%;
+}
+
+.foreground-img {
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 48px;
+  width: 584px;
+  height: 100%;
+}
+
+#break {
+  border-left: 2px solid rgb(9, 255, 0);
+  height: 530px;
+  position: absolute;
+  left: 50%;
+}
+
+/* Slider css */
+.slider {
+  position: absolute;
+  bottom: -72px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+input[type=range] {
+  width: 1168px;
+  margin: 11.1px 0;
+  background-color: transparent;
+  -webkit-appearance: none;
+}
+
+input[type=range]:focus {
+  outline: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  background: #ffffff;
+  border: 0.2px solid #010101;
+  width: 1168px;
+  height: 7.8px;
+  cursor: pointer;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  margin-top: -11.3px;
+  width: 6px;
+  height: 30px;
+  border-radius: 6px;
+  background: #ffffff;
+  border: 0.2px solid #000000;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #ffffff;
+}
+
+input[type=range]::-moz-range-track {
+  background: #ffffff;
+  border: 0.2px solid #010101;
+  width: 1168px;
+  height: 7.8px;
+  cursor: pointer;
+}
+
+input[type=range]::-moz-range-thumb {
+  width: 6px;
+  height: 30px;
+  background: #ffffff;
+  border: 0.2px solid #000000;
+  cursor: pointer;
+}
+
+input[type=range]::-ms-track {
+  background: transparent;
+  border-color: transparent;
+  border-width: 11.1px 0;
+  color: transparent;
+  width: 1168px;
+  height: 7.8px;
+  cursor: pointer;
+}
+
+input[type=range]::-ms-fill-lower {
+  background: #f2f2f2;
+  border: 0.2px solid #010101;
+}
+
+input[type=range]::-ms-fill-upper {
+  background: #ffffff;
+  border: 0.2px solid #010101;
+}
+
+input[type=range]::-ms-thumb {
+  width: 6px;
+  height: 30px;
+  background: #ffffff;
+  border: 0.2px solid #000000;
+  cursor: pointer;
+  margin-top: 0px;
+}
+
+input[type=range]:focus::-ms-fill-lower {
+  background: #ffffff;
+}
+
+input[type=range]:focus::-ms-fill-upper {
+  background: #ffffff;
 }
