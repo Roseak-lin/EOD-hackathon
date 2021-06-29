@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/EOD-hackathon/static/css/main.6b1e7782.chunk.css",
-    "main.js": "/EOD-hackathon/static/js/main.edb3d74f.chunk.js",
-    "main.js.map": "/EOD-hackathon/static/js/main.edb3d74f.chunk.js.map",
-    "runtime-main.js": "/EOD-hackathon/static/js/runtime-main.07d739b8.js",
-    "runtime-main.js.map": "/EOD-hackathon/static/js/runtime-main.07d739b8.js.map",
+    "main.css": "/EOD-hackathon/static/css/main.135e3d60.chunk.css",
+    "main.js": "/EOD-hackathon/static/js/main.cb76db88.chunk.js",
+    "main.js.map": "/EOD-hackathon/static/js/main.cb76db88.chunk.js.map",
+    "runtime-main.js": "/EOD-hackathon/static/js/runtime-main.56b35045.js",
+    "runtime-main.js.map": "/EOD-hackathon/static/js/runtime-main.56b35045.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/EOD-hackathon/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.5671675a.chunk.js": "/EOD-hackathon/static/js/2.5671675a.chunk.js",
-    "static/js/2.5671675a.chunk.js.map": "/EOD-hackathon/static/js/2.5671675a.chunk.js.map",
-    "static/js/3.76ec6e79.chunk.js": "/EOD-hackathon/static/js/3.76ec6e79.chunk.js",
-    "static/js/3.76ec6e79.chunk.js.map": "/EOD-hackathon/static/js/3.76ec6e79.chunk.js.map",
+    "static/js/2.b43d57fd.chunk.js": "/EOD-hackathon/static/js/2.b43d57fd.chunk.js",
+    "static/js/2.b43d57fd.chunk.js.map": "/EOD-hackathon/static/js/2.b43d57fd.chunk.js.map",
+    "static/js/3.82b7f6f3.chunk.js": "/EOD-hackathon/static/js/3.82b7f6f3.chunk.js",
+    "static/js/3.82b7f6f3.chunk.js.map": "/EOD-hackathon/static/js/3.82b7f6f3.chunk.js.map",
     "index.html": "/EOD-hackathon/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/EOD-hackathon/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.6b1e7782.chunk.css.map": "/EOD-hackathon/static/css/main.6b1e7782.chunk.css.map",
-    "static/js/2.5671675a.chunk.js.LICENSE.txt": "/EOD-hackathon/static/js/2.5671675a.chunk.js.LICENSE.txt",
+    "static/css/main.135e3d60.chunk.css.map": "/EOD-hackathon/static/css/main.135e3d60.chunk.css.map",
+    "static/js/2.b43d57fd.chunk.js.LICENSE.txt": "/EOD-hackathon/static/js/2.b43d57fd.chunk.js.LICENSE.txt",
     "static/media/C_2020-1-1.b8a0c0b3.png": "/EOD-hackathon/static/media/C_2020-1-1.b8a0c0b3.png",
     "static/media/C_2020-10-7.47875b8f.png": "/EOD-hackathon/static/media/C_2020-10-7.47875b8f.png",
     "static/media/C_2020-4-1.480089ab.png": "/EOD-hackathon/static/media/C_2020-4-1.480089ab.png",
@@ -26,10 +26,10 @@
     "static/media/T_2021-1-6.01d0fe92.png": "/EOD-hackathon/static/media/T_2021-1-6.01d0fe92.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.07d739b8.js",
+    "static/js/runtime-main.56b35045.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.5671675a.chunk.js",
-    "static/css/main.6b1e7782.chunk.css",
-    "static/js/main.edb3d74f.chunk.js"
+    "static/js/2.b43d57fd.chunk.js",
+    "static/css/main.135e3d60.chunk.css",
+    "static/js/main.cb76db88.chunk.js"
   ]
 }
